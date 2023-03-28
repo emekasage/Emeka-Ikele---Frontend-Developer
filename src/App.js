@@ -1,11 +1,8 @@
 import React from "react";
+import Index from "./sections/banner";
 
 function App() {
-  return (
-    <div>
-      <h1 className="text-lg text-black">Space-x</h1>
-    </div>
-  );
+  return <Index />;
 }
 
 export default App;
