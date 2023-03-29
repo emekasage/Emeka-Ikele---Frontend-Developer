@@ -33,7 +33,6 @@ function SearchForm() {
           item.serial.toLowerCase().includes(e.target.value.toLowerCase()) ||
           item.status.toLowerCase().includes(e.target.value.toLowerCase())
       );
-      console.log(filterResult);
       setCapsules(filterResult);
     }
     setFilterValue(e.target.value);
@@ -46,7 +45,6 @@ function SearchForm() {
       const typeResult = filterQuery.filter((item) =>
         item.type.includes(e.target.value)
       );
-      console.log(typeResult);
       setCapsules(typeResult);
     }
   };
@@ -66,7 +64,10 @@ function SearchForm() {
 
   return (
     <>
-      <section className="container mx-auto my-4 py-5 px-4 md:px-10 lg:px-28 border-t border-[#f0f0f0] z-0">
+      <section
+        className="container mx-auto my-4 py-5 px-4 md:px-10 lg:px-28 border-t border-[#f0f0f0] z-0"
+        id="find-capsules"
+      >
         <h2 className="text-xl md:text-4xl text-gray-900 font-medium">
           Search Capsules
         </h2>

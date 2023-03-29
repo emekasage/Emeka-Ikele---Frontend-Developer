@@ -4,8 +4,10 @@
 
 h1,
 h2,
+h4,
 p,
 div,
+span,
 a {
   font-family: "Inter", sans-serif;
 }

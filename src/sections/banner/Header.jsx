@@ -24,7 +24,7 @@ function Header() {
             </li>
             <li>
               <a
-                href="#find-capsules"
+                href="#view-capsules"
                 className="text-gray-900 text-sm lg:text-base"
               >
                 View Capsules
@@ -49,7 +49,7 @@ function Header() {
                 </li>
                 <li className="text-center py-2">
                   <a
-                    href="#find-capsules"
+                    href="#view-capsules"
                     className="text-gray-900 text-sm lg:text-base"
                   >
                     View Capsules
