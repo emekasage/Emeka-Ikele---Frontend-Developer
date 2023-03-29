@@ -5,7 +5,7 @@ function Index() {
   return (
     <>
       <Header />
-      <section className="container mx-auto my-4 py-5 px-4 md:px-10 lg:px-28 block lg:flex justify-between items-center">
+      <section className="container mx-auto my-4 py-5 px-4 md:px-10 lg:px-28 block lg:flex justify-between items-center z-0">
         <div className="max-w-full lg:max-w-xl flex flex-col">
           <h1 className="text-4xl md:text-6xl md:text-center lg:text-left font-semibold text-gray-900">
             All Info About SpaceX Capsules

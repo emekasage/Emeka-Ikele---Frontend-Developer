@@ -6,7 +6,7 @@ function Header() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <>
-      <header className="relative w-full flex justify-between items-center border border-[#F0F0F0] bg-white px-8 lg:px-28 drop-shadow-sm">
+      <header className="relative w-full flex justify-between items-center border border-[#F0F0F0] bg-white px-8 lg:px-28 drop-shadow-sm z-0">
         <div>
           <button>
             <SiSpacex className="text-7xl md:text-8xl text-gray-900" />

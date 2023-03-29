@@ -12,7 +12,7 @@ function SearchForm() {
   const [currentPage, setCurrentPage] = useState(1);
   const [capsulesPerPage] = useState(10);
 
-  //   api call to fetch all the capsules
+  //  api call to fetch all the capsules
   useEffect(() => {
     const fetchCapsules = async () => {
       const response = await FunctionsProvider.getCapsules();
@@ -66,7 +66,7 @@ function SearchForm() {
 
   return (
     <>
-      <section className="container mx-auto my-4 py-5 px-4 md:px-10 lg:px-28 border-t border-[#f0f0f0]">
+      <section className="container mx-auto my-4 py-5 px-4 md:px-10 lg:px-28 border-t border-[#f0f0f0] z-0">
         <h2 className="text-xl md:text-4xl text-gray-900 font-medium">
           Search Capsules
         </h2>
