@@ -14,7 +14,7 @@ function Index() {
             All in one place
           </p>
         </div>
-        <div className="max-w-full mx-auto md:mx-0 md:max-w-xl drop-shadow-md">
+        <div className="max-w-full mx-auto lg:mx-0 md:max-w-xl drop-shadow-md">
           <img
             src="../../../assets/hero_capsule.jpg"
             alt="hero-graphics"

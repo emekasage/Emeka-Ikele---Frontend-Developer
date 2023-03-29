@@ -1,12 +1,12 @@
 import React from "react";
 import Index from "./sections/banner";
-import CapsuleGrid from "./sections/CapsuleGrid";
+import SearchForm from "./sections/SearchForm";
 
 function App() {
   return (
     <>
       <Index />
-      <CapsuleGrid />
+      <SearchForm />
     </>
   );
 }
